@@ -4,7 +4,6 @@ body {
   color: #333;
 }
 
-
 .tab-panels ul {
   margin: 0;
   padding: 0;
@@ -13,29 +12,28 @@ body {
 .tab-panels ul li {
   list-style-type: none;
   display: inline-block;
-  background: #999;
+  background: rgb(45, 173, 247);
   margin: 0;
   padding: 3px 10px;
   border-radius: 10px 10px 0 0;
   color: #fff;
   font-weight: 200;
   cursor: pointer;
-
 }
 
 .tab-panels ul li:hover {
   color: #fff;
-  background: #666;
+  background: rgb(36, 93, 247);
 }
 
 .tab-panels ul li.active {
   color: #fff;
-  background: #666;
+  background: rgb(36, 93, 247);
 }
 
 .tab-panels .panel {
   display: none;
-  background: #c9c9c9;
+  background: #97e7f1;
   padding: 30px;
   border-radius: 0 0 10px 10px;
 }
